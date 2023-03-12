@@ -45,6 +45,7 @@ public class TestBasecheck {
 			driver = new FirefoxDriver();
 		}
 		driver.get(prop.getProperty("url")); // open url
+		
 		driver.manage().window().maximize(); // maximize browser
 
 }
